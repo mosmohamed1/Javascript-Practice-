@@ -1,0 +1,21 @@
+body {
+    background-color: #222;
+}
+
+.thumbnial img {
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    border: 2px solid #ddd
+}
+
+.thumbnial img:hover {
+    border: 2px solid #888;
+    cursor: pointer;
+}
+
+.preview img {
+    width: 800px;
+    height: 500px;
+    border: 2px solid white;
+}

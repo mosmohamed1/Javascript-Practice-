@@ -1,0 +1,61 @@
+#the_img {
+    width: 400px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#the_img:hover  {
+    opacity: 0.8;
+
+}
+
+.model {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.model .close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 40px;
+    color: #ccc;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.model .model_content {
+    width: 60%;
+    display: block;
+    margin: 40px auto;
+}
+.model .model_content,
+.model #caption {
+    animation: zomming 0.6s;
+}
+.model #caption {
+    width: 60%;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size:  20px;
+    margin: auto;
+}
+
+
+@keyframes zomming {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

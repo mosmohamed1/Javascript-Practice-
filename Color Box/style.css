@@ -1,0 +1,18 @@
+div {
+
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 5px;
+}
+
+.div1 {background-color: blue;}
+.div2 {background-color: green;}
+.div3 {background-color: red;}
+.div4 {background-color: yellow;}
+
+
+#color {
+    background-color: white;
+    border: 1px solid black;
+}
